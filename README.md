@@ -16,10 +16,6 @@ Before you begin, ensure you have met the following requirements:
 **Step 1**: Install Dependencies for the project:
 ```bash
 npm install
-npm install express 
-npm install mongoose 
-npm install dotenv
-npm install nodemon
 ```
 
 **Step 2**: Now You have edit the `package.json` file. Copy the below code and paste it to that particular code.
