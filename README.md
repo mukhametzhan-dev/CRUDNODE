@@ -18,15 +18,7 @@ Before you begin, ensure you have met the following requirements:
 npm install
 ```
 
-**Step 2**: Now You have edit the `package.json` file. Copy the below code and paste it to that particular code.
-```bash
-"scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-```
-
-**Step 3**: To Run the Project
+**Step 2**: To Run the Project
 ```bash
 npm run dev
 ```
