@@ -8,7 +8,7 @@ RUN npm install --production
 
 COPY . .
 
-# Second stage: minimal runtime
+
 FROM node:18-alpine
 
 # Create a non-root user
@@ -18,7 +18,7 @@ WORKDIR /app
 
 COPY --from=builder /app /app
 
-# Use non-root user
+
 USER appuser
 
 EXPOSE 3000
